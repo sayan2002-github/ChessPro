@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #e3a350;
+}
+
+nav a{
+    font-family: 'Rowdies', cursive;
+    color: white;
+    text-shadow: 0px 0px 5px grey, 0px 0px 5px grey;
+}
+
+section{
+    margin-top: 10px;
+    display: grid;
+    place-items: center;
+    overflow-x: hidden;
+}
+
+h4{
+    /* margin: 2px 0px; */
+    text-shadow: 0px 0px 1px white, 0px 0px 1px white;
+    padding: 4px 14px;
+    border: 2px solid orange;
+    border-radius: 25px;
+    background: linear-gradient(brown, orange);
+    color: white;
+    text-shadow: 0px 0px 1px white, 0px 0px 1px whitesmoke;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+}
+
+.divv{
+    display: flex;
+}
+
+.divv li{
+    list-style: none;
+    display: grid;
+    place-items: center;
+    font-size: 0px;
+}
+
+.box{
+    margin: .5px;
+    width: 75px;
+    height: 75px;
+}
+
+.allimg{
+    width: 45px;
+    position: relative;
+    bottom: 5px;
+}
+
+.allpawn{
+    transform: scale(.7);
+}
+
+.authcont{
+    width: 100vw;
+}
+
+.author{
+    float: right;
+    margin-right: 50px;
+}
+
+@media (max-width:850px){
+    #tog{
+        margin: 50px;
+        font-size: 3rem;
+    }
+
+    section ul{
+        margin-left: -32px;
+        margin-top: 40px;
+    }
+
+    .box{
+        width: 11vw;
+        height: 11vw;
+    }
+
+    .allimg{
+        width: 7vw;
+    }
+}
